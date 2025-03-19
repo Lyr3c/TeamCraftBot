@@ -7,7 +7,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main():
     # Вставь свой токен, который ты получил от BotFather
-    token = "7960493937:AAFkQF9z10HyPxW9IV815-oGwqHP7MuVmZM"
+    token = ""
 
     # Создаем объект Application для новой версии библиотеки
     application = Application.builder().token(token).build()
